@@ -2,8 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: 'roboto', sans-serif;
     background-color: #fff;
 }
 
@@ -25,89 +23,57 @@ padding: 16px;
 
 }
 
-button:hover{
-    text-decoration: underline;
-    background-color: rgb(255, 206, 115);
-}
+
 
 h1{
     font-size:100px;
 } */
 
-body {
-    background-color: #333;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
     margin: 0;
-    color: white;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .container {
-    background-color: #006699;
-    padding: 3rem;
-    border-radius: 1rem;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
   
-  .form {
-    display: grid;
-    grid-template-columns: auto auto;
-    row-gap: 1rem;
-    column-gap: 3rem;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .title {
-    margin: 0;
-    text-align: center;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
   .character-amount-container {
     display: flex;
     align-items: center;
   }
-  
-  .number-input {
-    width: 2rem;
-  }
-  
-  .password-display {
-    background-color: white;
-    color: black;
-    padding: 1rem;
-    border: 1px solid #333;
-    height: 2rem;
-    width: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    word-break: break-all;
-    border-radius: .5rem;
-  }
-  
+
   .btn {
-    grid-column: span 2;
-    background-color: transparent;
-    border: 2px solid white;
     color: white;
-    padding: .5rem 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 1rem;
+background-color: orange;
+font-size: 32px;
+border: none;
+color: white;
+padding: 16px;
+margin-top: 8px;
   }
   
   .btn:hover {
-    background-color: #FFFFFF33;
+    text-decoration: underline;
+    background-color: rgb(255, 206, 115);
+  }
+
+  .checkboxes{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .password-display{
+      font-size: 100px;
   }
