@@ -23,8 +23,6 @@ padding: 16px;
 
 }
 
-
-
 h1{
     font-size:100px;
 } */
@@ -76,4 +74,9 @@ margin-top: 8px;
 
   .password-display{
       font-size: 100px;
+  }
+
+  form{
+    display: flex;
+    justify-content: space-between;
   }
